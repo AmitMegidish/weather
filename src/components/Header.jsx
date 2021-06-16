@@ -18,7 +18,7 @@ const Header = () => {
             <Container fluid>
                 <LinkContainer to='/'>
                     <Navbar.Brand>
-                        Weather Hero
+                        My Weather
                     </Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

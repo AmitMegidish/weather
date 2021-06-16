@@ -11,7 +11,7 @@ const Footer = () => {
                 <Row>
                     <Col className='text-center py-3'>
                         <span className={isDarkMode ? "text-light" : "text-info"}>
-                            - Copyright &copy; Weather Hero 2021 -
+                            - Copyright &copy; Amit Megidish 2021 -
                         </span>
                     </Col>
                 </Row>
