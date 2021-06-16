@@ -1,0 +1,24 @@
+body, html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 84vh;
+  margin: 0;
+  padding: 0;
+}
+
+.light-bg{
+  background-color: #fcf5fc;
+}
+
+.nav-items:hover{
+color: #000 !important;
+}
+
+.l{
+  z-index: 2;
+  left: 25%;
+}
