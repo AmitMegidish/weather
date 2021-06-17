@@ -69,7 +69,7 @@ const CitySearch = () => {
                 value={searchValue}
                 onChange={onChangeHandler}
                 type='text'
-                className={`info mx-auto mt-2 col-md-6 col-10 ${isDarkMode && "bg-primary text-light"}`}
+                className={`shadow info mx-auto mt-2 col-md-6 col-10 ${isDarkMode && "bg-primary text-light"}`}
                 placeholder="Search For A City (English only)"
             />
             {/* <div className="position-relative"> */}

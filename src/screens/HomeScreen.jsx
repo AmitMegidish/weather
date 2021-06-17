@@ -70,7 +70,7 @@ const HomeScreen = () => {
                             </Row>
                             <Row>
                                 <Col md={4.5} xs={3} />
-                                <Col md={3} xs={6} className={`m-auto ${isDarkMode ? "bg-primary text-light" : "border border-info bg-white"} rounded`}>
+                                <Col md={3} xs={6} className={`shadow m-auto ${isDarkMode ? "bg-primary text-light" : "border border-info bg-white"} rounded`}>
                                     <div className="text-center m-0 pt-2" >
                                         <h3>Current Weather</h3>
                                         <Image className="mt-1 text-center" src={renderIcon(currentCondition[0].WeatherIcon)} />

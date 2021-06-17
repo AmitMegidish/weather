@@ -28,7 +28,7 @@ const FavoritesScreen = ({ history }) => {
                         <Alert variant={isDarkMode ? "dark" : "info"} className="text-center col-lg-6 col-md-8 col mx-auto">
                             <Alert.Heading>
                                 You Have No Favored Cities Yet!
-                           </Alert.Heading>
+                            </Alert.Heading>
                             <hr />
                             <p className="text-left">
                                 1. Go back home. <br />
@@ -52,7 +52,7 @@ const FavoritesScreen = ({ history }) => {
                             </h1>
                             <ListGroup className="col-10 mx-auto">
                                 {favoredCities.map(city => (
-                                    <ListGroup.Item className={`d-flex justify-content-between ${isDarkMode && "bg-primary text-light"}`} key={city.cityKey}>
+                                    <ListGroup.Item className={`shadow d-flex justify-content-between ${isDarkMode && "bg-primary text-light"}`} key={city.cityKey}>
                                         <strong className="my-auto">
                                             {city.cityName}, {city.currentCondition[0].Temperature.Metric.Value.toFixed()}°C, {city.currentCondition[0].WeatherText}.
                                         </strong>

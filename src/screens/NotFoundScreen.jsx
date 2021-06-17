@@ -7,7 +7,7 @@ const NotFoundScreen = () => {
     const { isDarkMode } = useSelector(state => state.theme);
 
     return (
-        <Alert variant={isDarkMode ? "dark" : "info"} className="text-center col-md-6 col mx-auto">
+        <Alert variant={isDarkMode ? "dark" : "info"} className="shadow text-center col-md-6 col mx-auto">
             <Alert.Heading>
                 OOOOOOPS.
             </Alert.Heading>
